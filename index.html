@@ -1,0 +1,147 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link href="jquery.mobile.theme-1.0.min.css" rel="stylesheet" type="text/css"/>
+<link href="jquery.mobile.structure-1.0.min.css" rel="stylesheet" type="text/css"/>
+
+<link href="media.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>¡Felicidades!</h1>
+      <br></br>
+      
+</div>
+	<br></br>	
+	<div data-role="content">
+    <div data-role="navbar">
+    <ul data-role="listview">
+			
+            
+            
+           <li> <a href="#page2" data-role="button" data-inline="true" data-rel="dialog" data-theme="c" >Fotos</a></li>
+            <li> <a href="#page4" data-role="button" data-inline="true" data-rel="dialog" data-theme="c" >Videos</a></li>
+            <li> <a href="#page5" data-role="button" data-inline="true" data-rel="dialog" data-theme="c" >Música</a></li>	
+            </ul> 	
+    </div>	
+    </div></nav>
+    <img src="images/ii.gif"></img>	
+    <p>Porque me diste la vida y me entregaste tu amor</p>
+    <p>Por que velaste mis sueños y moldeaste mi corazón.</p>
+     <p>Por que escuchaste mis dudas y tu consejo me hizo mejor.</p>
+      <p>Por que tu nombre me da valor.</p>
+      
+      <br></br>
+      <img src="images/mami.gif"></img>	
+      
+      
+      <br></br>
+      <center><i>¡GRACIAS MAMÁ POR TU AMOR!</i></center>
+
+      <center><audio controls autoplay>
+			<source src="auno.mp3" type="audio/mpeg">
+		</audio></center>
+
+
+<br></br>
+      </div>
+	
+<div data-role="footer" data-theme="a">
+		<h4>Create by: Vane C.E.</h4>
+	</div>
+</div>
+<div data-role="page" id="page2">
+	<div data-role="header">
+		<h1>Alert!!!</h1>
+	</div>
+
+	<div data-role="content">
+      <p>Para mi querida madre "Rosa"</p>
+	</div>
+	<div data-role="footer"  data-theme="e">
+		<div data-role="navbar" >
+    <ul >
+            <li><a href="#page3"data-transition="slide"><img src="images/i.gif"></a></li>
+            </ul> 	
+    </div></nav>
+	</div>
+</div>
+
+<div data-role="page" id="page3">
+	<div data-role="header">
+		<h1>Fotografías</h1>
+	</div>
+	<div data-role="content">	
+		 <div> <img src="images/uno.jpg" align="left"></img></div>
+       <div> <img src="images/dos.jpg" align="right"></img></div>
+        <div><img src="images/tres.jpg" align="left"></img></div>
+        <img src="images/cuatro.jpg"></img>
+        <div><img src="images/cinco.jpg" align="right"></img></div>
+        <img src="images/seis.jpg"></img>
+        <img src="images/siete.jpg"></img>	
+	</div>
+	<div data-role="footer"  data-theme="e">
+		<div data-role="navbar" >
+    <ul >
+			<li><a href="#page" data-role="button" data-icon="back" data-transition="turn">Inicio</a></li>	
+            <li><a href="#page4" data-role="button" data-icon="forward" data-transition="slideup">Videos</a></li>
+			<li><a href="#page5" data-role="button" data-icon="forward" data-transition="pop">Música</a></li>
+            </ul> 	
+    </div></nav>
+	</div>
+</div>
+
+<div data-role="page" id="page4">
+	<div data-role="header">
+		<h1>Videos</h1>
+	</div>
+	<div data-role="content">	
+		<img src="images/iii.gif"></img>
+        <br></br>
+        <p>Una de tus canciónes favoritas</p>
+        <center><i>Con mucho cariño para ti</i></center>
+        <center><video src="Videos/vuno.mp4" muted controls></video></center>
+	</div>
+	<div data-role="footer"  data-theme="e">
+		<div data-role="navbar" >
+    <ul >
+			<li><a href="#page" data-role="button" data-icon="back" data-transition="turn">Inicio</a></li>	
+			<li><a href="#page3" data-role="button" data-icon="forward" data-transition="flow">Fotografías</a></li>
+            
+            <li><a href="#page5" data-role="button" data-icon="forward" data-transition="flip">Música</a></li>
+            </ul> 	
+    </div></nav>
+	</div>
+    
+</div>
+<div data-role="page" id="page5">
+<div data-role="header">
+    <h1>Música</h1>
+  </div>
+<div data-role="content">
+<img src="images/iiii.gif"></img>
+<br></br>	
+<center><audio controls autoplay>
+			<source src="ados.mp3" type="audio/ogg">
+		</audio></center>
+</div>
+<div data-role="footer">
+   <div data-role="navbar" >
+    <ul >
+			<li><a href="#page" data-role="button" data-icon="back" data-transition="turn">Inicio</a></li>
+            <li><a href="#page3" data-role="button" data-icon="forward" data-transition="flow">Fotografías</a></li>
+            <li><a href="#page4" data-role="button" data-icon="forward" data-transition="flow">Videos</a></li>
+            </ul> 	
+    </div></nav>
+	</div>
+
+
+</body>
+</html>

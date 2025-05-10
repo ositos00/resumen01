@@ -1,0 +1,42 @@
+img{
+	display: block; 
+	margin: auto;
+	border-radius: 20px;
+	width: 50%;
+    height:30%;
+	/*-webkit-clip-path:circle(60px at 100px 60px);*/
+}
+video{
+	width: 60%;
+    height:60%;
+}
+.ui-page{
+	background-image:url("images/fondo.jpg");
+}
+p{
+font-size: 22px;
+font-family: Berlin Sans FB Demi;
+color: #ff3366;
+font-family: 'Dancing Script',cursive;
+text-align: center;
+text-shadow: 1px 1px 1px #FFF;
+}
+i{
+font-size: 20px;
+font-family: Berlin Sans FB Demi;
+color: #30C;
+font-family: 'Dancing Script',cursive;
+text-align: center;
+text-shadow: 5px 5px 5px #FFF;
+}
+h3{
+	color: #003;
+	text-shadow: 5px 5px 5px #9e9e9e;
+	text-align: center;
+}
+
+@media screen and (max-width: 500px ){
+ body{
+ 	background-color:#0FC ;
+ }
+}
